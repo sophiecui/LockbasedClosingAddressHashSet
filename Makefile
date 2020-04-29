@@ -1,8 +1,3 @@
-#Name:Beiming CUI
-#Loginid:beimingc@usc.edu
-#EE599
-#Spring 2017
-
 mytest: mytest.o hash_set.o
 	g++ -ggdb -Wall -pthread -std=c++11 -o mytest mytest.o hash_set.o
 
